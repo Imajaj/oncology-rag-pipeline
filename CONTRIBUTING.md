@@ -5,7 +5,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/yourusername/oncology-rag-pipeline.git`
+2. Clone your fork: `git clone https://github.com/Imajaj/oncology-rag-pipeline.git`
 3. Create a virtual environment: `python -m venv venv`
 4. Install dependencies: `pip install -r requirements.txt`
 5. Install development dependencies: `pip install -r requirements-dev.txt`
@@ -68,10 +68,6 @@ Use conventional commits:
 - `perf`: Performance improvements
 
 Example: `feat: add support for table extraction from PDFs`
-
-## Questions?
-
-Open an issue or email ajaj1417@gmail.com
 
 ## Code of Conduct
 
