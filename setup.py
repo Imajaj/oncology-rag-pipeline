@@ -4,7 +4,6 @@ setup(
     name="oncology-rag-pipeline",
     version="1.0.0",
     author="Ajaj Ahmed",
-    #author_email="ajaj1417@gmail.com",
     description="RAG pipeline for oncology EHR extraction and clinical trial matching",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
