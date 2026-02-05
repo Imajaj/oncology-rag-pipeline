@@ -81,7 +81,7 @@ git add .
 git commit -m "Initial commit: Oncology RAG Pipeline"
 
 # Create repo on GitHub, then:
-git remote add origin https://github.com/YOUR_USERNAME/oncology-rag-pipeline.git
+git remote add origin https://github.com/Imajaj/oncology-rag-pipeline.git
 git branch -M main
 git push -u origin main
 ```
@@ -90,7 +90,7 @@ git push -u origin main
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/oncology-rag-pipeline.git
+git clone https://github.com/Imajaj/oncology-rag-pipeline.git
 cd oncology-rag-pipeline
 
 # Install
@@ -161,114 +161,6 @@ print(results["eligibility"])
    - Ablation studies
    - Comparison with baselines
    - Error analysis
-
-## 💡 How to Present This to Companies
-
-### On Resume
-```
-Oncology RAG Pipeline for Clinical Trial Matching
-• Built production RAG system for EHR data extraction (92% accuracy)
-• Implemented hybrid retrieval (semantic + keyword) with 84% Recall@5
-• Achieved 88% agreement with expert oncologists for trial matching
-• 8x faster than manual review (2 hours → 15 minutes per patient)
-• Tech: Python, PyTorch, Transformers, LangChain, FAISS, BM25
-```
-
-### In Cover Letter
-```
-"I recently developed an end-to-end RAG pipeline for extracting structured 
-oncology data from medical records, achieving 92% accuracy and reducing 
-processing time by 8x. The system combines hybrid retrieval (semantic + 
-keyword search), cross-encoder re-ranking, and LLM-as-Judge evaluation. 
-This project demonstrates my ability to build production ML systems for 
-healthcare applications. Code available at: [GitHub link]"
-```
-
-### In Interview
-```
-Talking Points:
-1. Problem: Manual trial matching takes 2 hours per patient
-2. Solution: 4-stage RAG pipeline (retrieval → rerank → extract → judge)
-3. Innovation: Hybrid retrieval (semantic + keyword) for medical terms
-4. Results: 92% accuracy, 8x speedup, <3% hallucinations
-5. Production: Proper architecture, monitoring, error handling
-
-Technical Deep-Dive:
-- Why hybrid? Medical terms like "Pembrolizumab" need exact matching
-- Why re-rank? Two-stage (recall → precision) for speed + accuracy
-- Why LLM-as-Judge? Chain-of-Thought for interpretable decisions
-- Challenges: Multi-hop reasoning, temporal queries, structured data
-```
-
-## 📝 Next Steps
-
-### Before Pushing to GitHub
-
-1. **Add Your Info**
-   - Replace "yourusername" with your GitHub username in README.md
-   - Add your email throughout
-
-2. **Optional Enhancements**
-   - Add demo notebook (`notebooks/demo.ipynb`)
-   - Add unit tests (`tests/`)
-   - Add GitHub Actions CI/CD (`.github/workflows/`)
-   - Add more sample EHRs
-
-3. **Polish README**
-   - Add screenshots (if you run it)
-   - Add architecture diagram image
-   - Add "Star ⭐" button reminder
-
-### After Pushing
-
-1. **Create Good First Commit**
-   ```
-   Initial commit: Oncology RAG Pipeline
-   
-   - Hybrid retrieval system (semantic + keyword + RRF)
-   - LLaMA-Rank re-ranker for precision
-   - Structured extraction with citations
-   - LLM-as-Judge for trial matching
-   - Comprehensive evaluation (92% accuracy)
-   - Complete documentation
-   ```
-
-2. **Pin Repository**
-   - Go to your GitHub profile
-   - Pin this repository (makes it prominent)
-
-3. **Add Topics/Tags**
-   - RAG
-   - NLP
-   - Healthcare
-   - LLM
-   - Information-Extraction
-   - Clinical-Trials
-   - Python
-
-## 🎓 Learning Value
-
-This project demonstrates:
-- RAG architecture design
-- Hybrid search implementation
-- Cross-encoder re-ranking
-- Prompt engineering (extraction + judge)
-- Evaluation methodology
-- Production ML engineering
-- Healthcare ML applications
-- Documentation skills
-
-## 📧 Questions?
-
-If you have any questions about the project or how to present it:
-- Review the comprehensive project guide (Oncology RAG section)
-- All technical details are documented in code comments
-- Evaluation metrics in `results/evaluation_report.md`
-
----
-
-**Project Status**: ✅ Ready for GitHub  
-**Code Quality**: Production-ready  
 **Documentation**: Complete  
 **Datasets**: Linked with URLs  
 
