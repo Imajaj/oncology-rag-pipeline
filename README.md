@@ -74,7 +74,6 @@ src/
 ## 📧 Contact
 
 **Ajaj Ahmed**  
-📧 ajaj1417@gmail.com  
 💼 [LinkedIn](https://linkedin.com/in/ajaj-ahmed)
 
 ---
